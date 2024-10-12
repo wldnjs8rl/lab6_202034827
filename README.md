@@ -39,9 +39,9 @@
 - **Global level**: 현재 user에 대한 set을 관리 (`~/.gitconfig`)
 - **Local level**: 특정 저장소에 대한 set을 관리 (`.git/config`)
 
-'''bash
+      bash
 $ git config --global user.name "Your Name"
-$ git config --global user.email "your.email@example.com"
+$ git config --global user.email "your.email@example.com"      
 
 ---
 
