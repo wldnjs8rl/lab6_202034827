@@ -28,8 +28,8 @@
 
 ## 5. Git 설치
 - **Linux**: package 관리자 이용하여 설치
-  ```bash
-  $ sudo apt install git
+  '''bash
+  $ sudo apt install git'''
 ---
 
 ## 6. Git 설정 (최초 set)
@@ -39,38 +39,37 @@
 - **Global level**: 현재 user에 대한 set을 관리 (`~/.gitconfig`)
 - **Local level**: 특정 저장소에 대한 set을 관리 (`.git/config`)
 
-```bash
+'''bash
 $ git config --global user.name "Your Name"
-$ git config --global user.email "your.email@example.com"
-
-=============================================================
+$ git config --global user.email "your.email@example.com"'''
+---
 
 ## 7. Git 저장소 초기화
 Git 저장소를 초기화하려면:
 
-```bash
-$ git init
+'''bash
+$ git init'''
 ---
 
 8. Git status 확인
 현재 저장소의 status를 확인하려면:
 
-```bash
-$ git status
+'''bash
+$ git status'''
 ---
 
 ## 9. file stage에 add하기
 특정 file을 stage에 추가하려면:
 
-```bash
-$ git add [file_name]
+'''bash
+$ git add [file_name]'''
 ---
 
 ## 10. file unstage하기
 파일을 언스테이지하려면:
 
-```bash
-$ git rm --cached [file_name]
+'''bash
+$ git rm --cached [file_name]'''
 ---
 
 ## 11. file ignore 하기
@@ -80,12 +79,12 @@ $ git rm --cached [file_name]
 ## 12. commit
 commit message를 포함하여 변경 사항을 저장하려면:
 
-```bash
-$ git commit -m "commit message"
+'''bash
+$ git commit -m "commit message"'''
 ---
 
 ## 13. branch name 변경
 branch name을 변경하려면:
 
-```bash
-$ git branch -m [new_branch_name]
+'''bash
+$ git branch -m [new_branch_name]'''
