@@ -48,6 +48,7 @@
 ```bash
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your.email@example.com"
+```
 
 ---
 
@@ -56,14 +57,16 @@ Git 저장소를 초기화하려면:
 
 ```bash
 $ git init
+```
 
 ---
 
-8. Git status 확인
+## 8. Git status 확인
 현재 저장소의 status를 확인하려면:
 
 ```bash
 $ git status
+```
 
 ---
 
@@ -72,6 +75,7 @@ $ git status
 
 ```bash
 $ git add [file_name]
+```
 
 ---
 
@@ -80,6 +84,7 @@ $ git add [file_name]
 
 ```bash
 $ git rm --cached [file_name]
+```
 
 ---
 
@@ -93,6 +98,7 @@ commit message를 포함하여 변경 사항을 저장하려면:
 
 ```bash
 $ git commit -m "commit message"
+```
 
 ---
 
@@ -101,3 +107,4 @@ branch name을 변경하려면:
 
 ```bash
 $ git branch -m [new_branch_name]
+```
