@@ -43,49 +43,55 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your.email@example.com"
 
----
+
 
 ## 7. Git 저장소 초기화
 Git 저장소를 초기화하려면:
 
-'''bash
-$ git init'''
----
+```bash
+$ git init
+
+
 
 8. Git status 확인
 현재 저장소의 status를 확인하려면:
 
-'''bash
-$ git status'''
----
+```bash
+$ git status
+
+
 
 ## 9. file stage에 add하기
 특정 file을 stage에 추가하려면:
 
-'''bash
-$ git add [file_name]'''
----
+```bash
+$ git add [file_name]
+
+
 
 ## 10. file unstage하기
 파일을 언스테이지하려면:
 
-'''bash
-$ git rm --cached [file_name]'''
----
+```bash
+$ git rm --cached [file_name]
+
+
 
 ## 11. file ignore 하기
 `.gitignore` file을 사용하여 Git이 추적하지 않을 file 목록을 지정
----
+
+
 
 ## 12. commit
 commit message를 포함하여 변경 사항을 저장하려면:
 
-'''bash
-$ git commit -m "commit message"'''
----
+```bash
+$ git commit -m "commit message"
+
+
 
 ## 13. branch name 변경
 branch name을 변경하려면:
 
-'''bash
-$ git branch -m [new_branch_name]'''
+```bash
+$ git branch -m [new_branch_name]
