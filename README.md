@@ -42,9 +42,9 @@
 ```bash
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your.email@example.com"
----
 
-7. Git 저장소 초기화
+
+## 7. Git 저장소 초기화
 Git 저장소를 초기화하려면:
 
 ```bash
